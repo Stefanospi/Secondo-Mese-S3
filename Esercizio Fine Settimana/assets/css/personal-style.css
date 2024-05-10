@@ -1,0 +1,20 @@
+
+
+/* Animazioni */
+.scale {
+    transition: transform 0.3s ease, filter 0.3s ease, opacity 0.3s ease !important;
+    cursor: pointer !important;
+}
+
+.scale:hover {
+    transform: scale(1.1) !important;
+    filter: brightness(120%) !important;
+    position: relative !important;
+    z-index: 3 !important;
+} 
+
+.row-opacity:hover .highlight:not(:hover) {
+    filter: brightness(20%) !important;
+    opacity: 0.6 !important;
+}
+
